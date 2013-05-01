@@ -70,13 +70,4 @@ map <Leader>gs :Gstatus<CR>
 map <Leader>gcm :Gcommit -m ""<LEFT>
 map <Leader>gcam :Gcommit -a -m ""<LEFT>
 map <Leader>gd :Gdiff
-" =======================================================
-" Vundle setup
-" =======================================================
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-Bundle 'thoughtbot/vim-rspec'
 

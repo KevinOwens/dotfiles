@@ -1,3 +1,5 @@
+[include]
+  path = ~/.gitconfig.local
 [alias]
   co = checkout
 [core]
@@ -23,5 +25,3 @@
   branch = yellow
 [alias]
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-[include]
-  path = ~/.gitconfig.local
