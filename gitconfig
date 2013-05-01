@@ -1,0 +1,27 @@
+[alias]
+  co = checkout
+[core]
+  editor = "vim" 
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[color "branch"]
+  current = green bold
+  local = green
+  remote = red bold
+[color "diff"]
+  meta = blue bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = green
+  changed = blue
+  untracked = red
+[color "sh"]
+  branch = yellow
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[include]
+  path = ~/.gitconfig.local

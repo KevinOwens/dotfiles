@@ -1,0 +1,59 @@
+#GENERAL aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias a='ls -lrthG'
+alias aliases='vim ~/dotfiles/bash/aliases'
+alias bashrc='vim ~/dotfiles/bash/bashrc'
+alias c='cd ~/code'
+alias code='cd ~/code'
+alias dotfiles='cd ~/dotfiles' 
+alias D='cd ~/Dropbox'
+alias gg='git lg'
+alias home='cd ~'
+alias l='ls -la'
+alias ll='ls -lahG'
+alias owf='cd ~/code/owf'
+alias refresh='source ~/.bash_profile'
+alias profile='vim ~/.bash_profile'
+alias vi='vim'
+
+#RUBY aliases
+alias bi='bundle install'
+alias be='bundle exec'
+alias bu='bundle update'
+
+#RAILS aliases
+alias rc='rails console'
+alias rcd='rails console --debugger'
+alias rs='rails server'
+alias rsd='rails server --debugger'
+
+#RVM aliases
+alias rubies='rvm list'
+alias gemsets='rvm gemset list'
+
+#GIT aliases
+alias g='git'
+alias gad='git add .'
+alias gb='git branch'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gca='git commit -a'
+alias gcam='git commit -a -m'
+alias gcl='git clone'
+alias gco='git checkout'
+alias gd='git diff'
+alias gl='git log'
+alias gm='git merge'
+alias gs='git status'
+
+#ROXIMITY aliases
+alias rox='cd ~/code/roximity/website'
+alias rsdl='rails server -e development_live'
+alias rcdl='rails console development_live'
+
+#DEPLOY aliases
+alias h='heroku'
+
+#VIM aliases
+alias vimrc='vim ~/.vimrc'
