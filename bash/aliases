@@ -12,10 +12,12 @@ alias gg='git lg'
 alias home='cd ~'
 alias l='ls -la'
 alias ll='ls -lahG'
+alias pnotes='vim ~/Dropbox/KevinOwens/programming_notes.txt'
 alias owf='cd ~/code/owf'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
 alias vi='vim'
+alias vnotes='vim ~/Dropbox/KevinOwens/vim_notes.txt'
 
 #RUBY aliases
 alias bi='bundle install'
