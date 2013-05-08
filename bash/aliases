@@ -1,4 +1,5 @@
 #GENERAL aliases
+alias 433='cd ~/code/four_three_three'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias a='ls -lrthG'
