@@ -43,8 +43,9 @@ set backspace=indent,eol,start
 " =======================================================
 map 0 ^
 map 1 $
-
+map :W :w
 let mapleader = ","
+" let NERDTreeQuitOnOpen = 1
 
 map <Leader>I gg=G
 " open general notes in new buffer
