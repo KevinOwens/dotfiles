@@ -1,5 +1,4 @@
 #GENERAL aliases
-alias 433='cd ~/code/four_three_three'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias a='ls -lrthG'
@@ -14,7 +13,6 @@ alias home='cd ~'
 alias l='ls -la'
 alias ll='ls -lahG'
 alias pnotes='vim ~/Dropbox/KevinOwens/programming_notes.txt'
-alias owf='cd ~/code/owf'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
 alias vi='vim'
@@ -61,3 +59,8 @@ alias h='heroku'
 
 #VIM aliases
 alias vimrc='vim ~/.vimrc'
+
+#PROJECT aliases
+alias 433='cd ~/code/four_three_three'
+alias owf='cd ~/code/owf'
+alias 3v='cd ~/code/3V'
