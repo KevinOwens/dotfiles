@@ -24,12 +24,6 @@ alias bi='bundle install'
 alias be='bundle exec'
 alias bu='bundle update'
 
-#RAILS aliases
-alias rc='rails console'
-alias rcd='rails console --debugger'
-alias rs='rails server'
-alias rsd='rails server --debugger'
-
 #RVM aliases
 alias rubies='rvm list'
 alias gemsets='rvm gemset list'

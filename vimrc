@@ -59,10 +59,10 @@ map <Leader>c :Rcontroller
 map <Leader>v :Rview
 
 " vim-rails two char vsplit commands
-map <Leader>vm :Vmodel
-map <Leader>vt :Vunittest
-map <Leader>vc :Vcontroller
-map <Leader>vv :Vview
+map <Leader>vm :Vmodel<CR>
+map <Leader>vt :Vunittest<CR>
+map <Leader>vc :Vcontroller<CR>
+map <Leader>vv :Vview<CR>
 
 " =======================================================
 " Git/Fugitive Mappings
