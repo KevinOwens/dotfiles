@@ -13,6 +13,7 @@ execute pathogen#helptags()
 " =======================================================
 
 set nocompatible
+filetype plugin on
 filetype plugin indent on
 syntax on
 
@@ -53,10 +54,10 @@ map <Leader>nn :vsp ~/Dropbox/KevinOwens/programming_notes.txt<cr>
 map <Leader>vn :vsp ~/Dropbox/KevinOwens/vim_notes.txt<cr>
 
 " vim-rails single char commands
-map <Leader>m :Rmodel
-map <Leader>t :Runittest
-map <Leader>c :Rcontroller
-map <Leader>v :Rview
+map <Leader>rm :Rmodel
+map <Leader>rt :Runittest
+map <Leader>rc :Rcontroller
+map <Leader>rv :Rview
 
 " vim-rails two char vsplit commands
 map <Leader>vm :Vmodel<CR>
