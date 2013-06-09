@@ -45,6 +45,7 @@ alias gs='git status'
 
 #ROXIMITY aliases
 alias rox='cd ~/code/roximity/website'
+alias dan='cd ~/code/roximity/roximity-dan'
 alias rsdl='rails server -e development_live'
 alias rcdl='rails console development_live'
 
