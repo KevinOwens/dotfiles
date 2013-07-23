@@ -38,6 +38,8 @@ set splitright
 "set colorcolumn=80
 "set laststatus=2
 set backspace=indent,eol,start
+" Use Ack instead of grep
+set grepprg=ack
 
 " =======================================================
 " Custom Mappings
