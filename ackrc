@@ -1,3 +1,7 @@
+--type-add=js=.coffee
+--type-set=coffee=.coffee
+--type-add=html=.haml
+--type-set=haml=.haml
 --type-set
 ignorables=.log,.tmp,.pdf
 --ignore-dir=vendor
