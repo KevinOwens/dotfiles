@@ -68,6 +68,12 @@ map <Leader>vt :Vunittest<CR>
 map <Leader>vc :Vcontroller<CR>
 map <Leader>vv :Vview<CR>
 
+" make the arrow keys move within wrapped lines
+map <Up> gk
+imap <Up> <C-o>gk
+map <Down> gj
+imap <Down> <C-o>gj
+
 " =======================================================
 " Git/Fugitive Mappings
 " =======================================================

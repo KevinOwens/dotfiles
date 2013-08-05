@@ -28,6 +28,10 @@ alias bu='bundle update'
 alias rs='rspec -t ~integration --color'
 alias rspec='rspec --color'
 
+#Rails aliases
+alias gems='vim Gemfile'
+alias routes='rake routes'
+
 #RVM aliases
 alias rubies='rvm list'
 alias gemsets='rvm gemset list'
