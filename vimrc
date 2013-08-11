@@ -52,7 +52,7 @@ map 0 ^
 map 1 $
 map :W :w
 map 2 :NERDTreeToggle<cr>
-" let NERDTreeQuitOnOpen = 1
+let NERDTreeQuitOnOpen = 1
 
 map <Leader>I gg=G
 " open general notes in new buffer
