@@ -44,10 +44,13 @@ set grepprg=ack
 " =======================================================
 " Custom Mappings
 " =======================================================
+
+" Leader
+let mapleader = " "
+
 map 0 ^
 map 1 $
 map :W :w
-let mapleader = ","
 map 2 :NERDTreeToggle<cr>
 " let NERDTreeQuitOnOpen = 1
 
@@ -87,4 +90,5 @@ map <Leader>gs :Gstatus<CR>
 map <Leader>gcm :Gcommit -m ""<LEFT>
 map <Leader>gcam :Gcommit -a -m ""<LEFT>
 map <Leader>gd :Gdiff
+map <Leader>gb :Gblame<CR>
 

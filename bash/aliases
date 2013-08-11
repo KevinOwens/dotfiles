@@ -17,6 +17,7 @@ alias ll='ls -lahG'
 alias pnotes='vim ~/Dropbox/KevinOwens/programming_notes.txt'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
+alias v='vim'
 alias vi='vim'
 alias vnotes='vim ~/Dropbox/KevinOwens/vim_notes.txt'
 
