@@ -41,6 +41,9 @@ set backspace=indent,eol,start
 " Use Ack instead of grep
 set grepprg=ack
 
+set background=light
+colorscheme github
+
 " =======================================================
 " Custom Mappings
 " =======================================================

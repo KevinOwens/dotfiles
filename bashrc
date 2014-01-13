@@ -1,4 +1,3 @@
-export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 #Command Prompt Variable
 export PS1='\W KO:'
 
@@ -6,7 +5,7 @@ export PS1='\W KO:'
 export MYNAME="KO"
 
 #PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export PATH="/Users/KO/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 #history variables
 export HISTCONTROL=ingoreboth
@@ -18,4 +17,7 @@ export GREP_OPTIONS="--color=auto"
 
 export EDITOR="/Users/kowens1/bin/vim"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

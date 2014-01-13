@@ -6,7 +6,7 @@ alias ackrc='vim ~/dotfiles/ackrc'
 alias aliases='vim ~/dotfiles/bash/aliases'
 alias bashrc='vim ~/dotfiles/bash/bashrc'
 alias c='cd ~/code'
-alias code='cd ~/code'
+alias code="echo 'use c!' && cd ~/code"
 alias dotfiles='cd ~/dotfiles' 
 alias D='cd ~/Dropbox'
 alias gg='git lg'
@@ -53,7 +53,9 @@ alias gm='git merge'
 alias gs='git status'
 
 #ROXIMITY aliases
-alias rox='cd ~/code/roximity/website'
+alias r="cd ~/code/roximity/website"
+alias rox="echo 'use r!' && cd ~/code/roximity/website"
+alias roxjs='cd ~/code/roximity/website/ext/gems/roxjs-rails'
 alias dan='cd ~/code/roximity/roximity-dan'
 alias rsdl='rails server -e development_live'
 alias rcdl='rails console development_live'
@@ -69,3 +71,4 @@ alias 433='cd ~/code/four_three_three'
 alias owf='cd ~/code/owf'
 alias 3v='cd ~/code/3V'
 alias fb='cd ~/code/fitbet'
+alias ramen='cd ~/code/ramen'
