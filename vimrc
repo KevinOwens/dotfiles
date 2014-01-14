@@ -42,7 +42,7 @@ set backspace=indent,eol,start
 set grepprg=ack
 
 set background=light
-colorscheme github
+colorscheme distinguished
 
 " =======================================================
 " Custom Mappings
