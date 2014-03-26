@@ -13,10 +13,12 @@ execute pathogen#helptags()
 " =======================================================
 
 set nocompatible
+set incsearch 
 filetype plugin on
 filetype plugin indent on
 syntax on
 
+set clipboard=unnamed
 set nobackup
 set nowritebackup
 set t_Co=256
@@ -38,6 +40,7 @@ set splitright
 "set colorcolumn=80
 "set laststatus=2
 set backspace=indent,eol,start
+
 " Use Ack instead of grep
 set grepprg=ack
 
@@ -56,6 +59,9 @@ map 1 $
 map :W :w
 map 2 :NERDTreeToggle<cr>
 let NERDTreeQuitOnOpen = 1
+
+" Go to previous file
+map <Leader>p <C-^> 
 
 map <Leader>I gg=G
 " open general notes in new buffer
@@ -86,12 +92,39 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" ctags location
+set tags=./tags;
+
+map <Leader>mt :call rspec --tag migration<CR>
+
 " =======================================================
 " Git/Fugitive Mappings
 " =======================================================
 map <Leader>gs :Gstatus<CR>
 map <Leader>gcm :Gcommit -m ""<LEFT>
 map <Leader>gcam :Gcommit -a -m ""<LEFT>
-map <Leader>gd :Gdiff
+map <Leader>gd :Gdiff<CR>
 map <Leader>gb :Gblame<CR>
 
+let g:rainbow_active = 1
+
+let g:rainbow_conf = {
+      \ 'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+      \ 'ctermfgs': ['green', 'lightblue', 'yellow', 'red', 'lightgreen', 'magenta', 'cyan'],
+      \ 'operators': '_,_',
+      \ 'parentheses': [['(',')'], ['\[','\]'], ['{','}']],
+      \ 'separately': {
+      \ '*': {},
+      \ 'lisp': {
+      \ 'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick', 'darkorchid3'],
+      \ 'ctermfgs': ['green', 'lightblue', 'yellow', 'red', 'magenta', 'lightgreen', 'cyan'],
+      \ },
+      \ 'html': {
+      \ 'parentheses': [['(',')'], ['\[','\]'], ['{','}'], ['<\a[^>]*[^/]>\|<\a>','</[^>]*>']],
+      \ },
+      \ 'tex': {
+      \ 'operators': '',
+      \ 'parentheses': [['(',')'], ['\[','\]']],
+      \ },
+      \ }
+      \}

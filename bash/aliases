@@ -16,9 +16,11 @@ alias grep='ack'
 alias home='cd ~'
 alias l='ls -la'
 alias ll='ls -lahG'
+alias n='vim ~/Dropbox/KevinOwens/notes.txt'
 alias pnotes='vim ~/Dropbox/KevinOwens/programming_notes.txt'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
+alias rnotes='vim ~/Dropbox/Roximity/rox_notes.txt'
 alias serve='python -m SimpleHTTPServer 8000'
 alias t='vim ~/Dropbox/KevinOwens/todo.txt'
 alias v='vim'
@@ -26,11 +28,12 @@ alias vi='vim'
 alias vnotes='vim ~/Dropbox/KevinOwens/vim_notes.txt'
 
 #RUBY aliases
-alias b='bundle'
+alias b="bundle"
+alias bundle="echo 'use b!' && bundle"
 alias bi='bundle install'
 alias be='bundle exec'
 alias bu='bundle update'
-alias rs='rspec -t ~integration --color'
+alias rs='rspec --color'
 alias rspec='rspec --color'
 
 #Rails aliases
@@ -57,6 +60,7 @@ alias gm='git merge'
 alias gs='git status'
 
 #ROXIMITY aliases
+alias servers="cd ~/code/roximity/roximity-servers"
 alias r="cd ~/code/roximity/website"
 alias rox="echo 'use r!' && cd ~/code/roximity/website"
 alias roxjs='cd ~/code/roximity/website/ext/gems/roxjs-rails'
@@ -75,3 +79,4 @@ alias owf='cd ~/code/owf'
 alias 3v='cd ~/code/3V'
 alias fb='cd ~/code/fitbet'
 alias ramen='cd ~/code/ramen'
+alias vk='cd ~/code/velocity-kick'
