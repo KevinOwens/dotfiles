@@ -8,7 +8,6 @@ alias bashrc='vim ~/dotfiles/bash/bashrc'
 alias c='cd ~/code'
 alias code="echo 'use c!' && cd ~/code"
 alias dotfiles='cd ~/dotfiles' 
-alias d='cd ~/code/roximity/dashboard'
 alias D='cd ~/Dropbox'
 alias finder='open'
 alias gg='git lg'
@@ -29,7 +28,6 @@ alias vnotes='vim ~/Dropbox/KevinOwens/vim_notes.txt'
 
 #RUBY aliases
 alias b="bundle"
-alias bundle="echo 'use b!' && bundle"
 alias bi='bundle install'
 alias be='bundle exec'
 alias bu='bundle update'
@@ -58,14 +56,18 @@ alias gd='git diff'
 alias gl='git log'
 alias gm='git merge'
 alias gs='git status'
+alias gpom='git push origin master'
 
 #ROXIMITY aliases
+alias d='cd ~/code/roximity/dashboard'
+alias m='cd ~/code/roximity/middleman'
 alias servers="cd ~/code/roximity/roximity-servers"
 alias r="cd ~/code/roximity/website"
 alias rox="echo 'use r!' && cd ~/code/roximity/website"
 alias roxjs='cd ~/code/roximity/website/ext/gems/roxjs-rails'
 alias rsdl='rails server -e development_live'
 alias rcdl='rails console development_live'
+alias reports='vim ~/Dropbox/Roximity/reporting_ideas.txt'
 
 #DEPLOY aliases
 alias h='heroku'
@@ -80,3 +82,7 @@ alias 3v='cd ~/code/3V'
 alias fb='cd ~/code/fitbet'
 alias ramen='cd ~/code/ramen'
 alias vk='cd ~/code/velocity-kick'
+
+#TMUX aliases
+alias muxkill='tmux kill-session'
+alias muxistart='tmuxinator start' 

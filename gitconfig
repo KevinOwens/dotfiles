@@ -26,5 +26,8 @@
 [alias]
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 [user]
-  name = KO
-  email = kowens1@gmail.com
+	name = Kevin Owens
+	email = kowens1@gmail.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
