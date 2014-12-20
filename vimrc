@@ -47,6 +47,9 @@ set grepprg=ack
 set background=light
 colorscheme distinguished
 
+highlight ColorColumn ctermbg=Blue
+call matchadd('ColorColumn', '\%81v', 100)
+
 " =======================================================
 " Custom Mappings
 " =======================================================
@@ -92,9 +95,11 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" ctrlp.vim
+map <Leader>p :CtrlP<CR>
+
 " ctags location
 set tags=./tags;
-
 map <Leader>mt :call rspec --tag migration<CR>
 
 " =======================================================
