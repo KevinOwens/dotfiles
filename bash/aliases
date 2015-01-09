@@ -58,6 +58,7 @@ alias gl='git log'
 alias gm='git merge'
 alias gs='git status'
 alias gpom='git push origin master'
+alias gpo='git push origin'
 alias goops='git reset --soft HEAD~1'
 
 #ROXIMITY aliases
@@ -83,6 +84,7 @@ alias vimrc='vim ~/.vimrc'
 #PROJECT aliases
 alias 433='cd ~/code/four_three_three'
 alias owf='cd ~/code/owf'
+alias b='cd ~/code/fcallblacks'
 alias 3v='cd ~/code/3V'
 alias fb='cd ~/code/fitbet'
 alias ramen='cd ~/code/ramen'
