@@ -1,4 +1,5 @@
 source ~/dotfiles/bash/aliases
+source ~/dotfiles/bash/private_aliases
 source ~/dotfiles/bash/git-prompt.sh
 source ~/dotfiles/tmuxinator.bash
 
