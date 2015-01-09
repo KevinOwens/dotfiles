@@ -61,34 +61,11 @@ alias gpom='git push origin master'
 alias gpo='git push origin'
 alias goops='git reset --soft HEAD~1'
 
-#ROXIMITY aliases
-alias d='cd ~/code/roximity/dashboard'
-alias m='cd ~/code/roximity/middleman'
-alias servers="cd ~/code/roximity/roximity-servers"
-alias r="cd ~/code/roximity/website"
-alias rox="echo 'use r!' && cd ~/code/roximity/website"
-alias roxjs='cd ~/code/roximity/website/ext/gems/roxjs-rails'
-alias rsdl='rails server -e development_live'
-alias rcdl='rails console development_live'
-alias reports='vim ~/Dropbox/Roximity/reporting_ideas.txt'
-alias ids='vim ~/Dropbox/Roximity/ids.txt'
-alias tailmid='ssh rox-console && cd /var/log/remote && tail -f middleman.log'
-alias taildash='ssh rox-console && cd /var/log/remote && tail -f dashboard.log'
-
 #DEPLOY aliases
 alias h='heroku'
 
 #VIM aliases
 alias vimrc='vim ~/.vimrc'
-
-#PROJECT aliases
-alias 433='cd ~/code/four_three_three'
-alias owf='cd ~/code/owf'
-alias b='cd ~/code/fcallblacks'
-alias 3v='cd ~/code/3V'
-alias fb='cd ~/code/fitbet'
-alias ramen='cd ~/code/ramen'
-alias vk='cd ~/code/velocity-kick'
 
 #TMUX aliases
 alias muxkill='tmux kill-session'
