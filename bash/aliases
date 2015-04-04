@@ -4,9 +4,11 @@ alias ...='cd ../..'
 alias a='ls -lrthG'
 alias ackrc='vim ~/dotfiles/ackrc'
 alias aliases='vim ~/dotfiles/bash/aliases'
+alias paliases='vim ~/dotfiles/bash/private_aliases'
 alias bashrc='vim ~/dotfiles/bash/bashrc'
 alias c='cd ~/code'
 alias code="echo 'use c!' && cd ~/code"
+alias dev='cd ~/Dropbox/Development'
 alias dotfiles='cd ~/dotfiles' 
 alias D='cd ~/Dropbox'
 alias finder='open'
@@ -16,7 +18,6 @@ alias home='cd ~'
 alias l='ls -la'
 alias ll='ls -lahG'
 alias n='vim ~/Dropbox/KevinOwens/notes.txt'
-alias pnotes='vim ~/Dropbox/KevinOwens/programming_notes.txt'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
 alias ports='sudo lsof -nP -iTCP -sTCP:LISTEN'
@@ -24,7 +25,15 @@ alias serve='python -m SimpleHTTPServer 8000'
 alias t='vim ~/Dropbox/KevinOwens/todo.txt'
 alias v='vim'
 alias vi='vim'
-alias vnotes='vim ~/Dropbox/KevinOwens/vim_notes.txt'
+
+#Note Files
+alias cnotes='vim ~/Dropbox/Development/notes/clojure_notes.txt'
+alias gnotes='vim ~/Dropbox/Development/notes/git_notes.txt'
+alias mnotes='vim ~/Dropbox/Development/notes/mongo_notes.txt'
+alias pnotes='vim ~/Dropbox/Development/notes/programming_notes.txt'
+alias snotes='vim ~/Dropbox/Development/notes/shell_notes.txt'
+alias rnotes='vim ~/Dropbox/Development/notes/ruby_notes.txt'
+alias vnotes='vim ~/Dropbox/Development/notes/vim_notes.txt'
 
 #RUBY aliases
 alias b="bundle"
@@ -61,6 +70,7 @@ alias gpo='git push origin'
 alias goops='git reset --soft HEAD~1'
 
 #DEPLOY aliases
+alias c='cap'
 alias h='heroku'
 
 #VIM aliases
