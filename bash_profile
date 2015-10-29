@@ -16,3 +16,6 @@ export PS1="================================\n\[\033[01;32m\]\u@\h\[\033[01;34m\
 
 PATH=$PATH:/usr/local/sbin
 export PATH="/usr/local/bin:$PATH"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+
+source /Users/KO/.iterm2_shell_integration.bash

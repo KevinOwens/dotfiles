@@ -23,6 +23,7 @@ alias profile='vim ~/.bash_profile'
 alias ports='sudo lsof -nP -iTCP -sTCP:LISTEN'
 alias serve='python -m SimpleHTTPServer 8000'
 alias t='vim ~/Dropbox/KevinOwens/todo.txt'
+alias todo='vim ~/Dropbox/KevinOwens/todo.txt'
 alias v='vim'
 alias vi='vim'
 
@@ -68,9 +69,9 @@ alias gs='git status'
 alias gpom='git push origin master'
 alias gpo='git push origin'
 alias goops='git reset --soft HEAD~1'
+alias tools='cd ~/code/tools'
 
 #DEPLOY aliases
-alias c='cap'
 alias h='heroku'
 
 #VIM aliases
@@ -79,3 +80,8 @@ alias vimrc='vim ~/.vimrc'
 #TMUX aliases
 alias muxkill='tmux kill-session'
 alias muxistart='tmuxinator start' 
+
+#POSTGRES
+alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias pg-status="pg_ctl -D /usr/local/var/postgres status"
