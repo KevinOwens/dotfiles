@@ -7,7 +7,6 @@ alias aliases='vim ~/.dotfiles/bash/aliases'
 alias paliases='vim ~/.dotfiles/bash/private_aliases'
 alias bashrc='vim ~/.dotfiles/bash/bashrc'
 alias c='cd ~/code'
-alias code="echo 'use c!' && cd ~/code"
 alias dev='cd ~/Dropbox/Development'
 alias dotfiles='cd ~/.dotfiles' 
 alias D='cd ~/Dropbox'
@@ -15,9 +14,8 @@ alias finder='open'
 alias gg='git lg'
 alias grep='ack'
 alias home='cd ~'
-alias l='ls -la'
+alias l='ls -lahG'
 alias ll='ls -lahG'
-alias n='vim ~/Dropbox/KevinOwens/notes.txt'
 alias refresh='source ~/.bash_profile'
 alias profile='vim ~/.bash_profile'
 alias ports='sudo lsof -nP -iTCP -sTCP:LISTEN'
@@ -28,6 +26,7 @@ alias v='vim'
 alias vi='vim'
 
 #Note Files
+alias n='vim ~/Dropbox/KevinOwens/notes.txt'
 alias cnotes='vim ~/Dropbox/Development/notes/clojure_notes.txt'
 alias gnotes='vim ~/Dropbox/Development/notes/git_notes.txt'
 alias mnotes='vim ~/Dropbox/Development/notes/mongo_notes.txt'
@@ -36,11 +35,13 @@ alias snotes='vim ~/Dropbox/Development/notes/shell_notes.txt'
 alias rnotes='vim ~/Dropbox/Development/notes/ruby_notes.txt'
 alias vnotes='vim ~/Dropbox/Development/notes/vim_notes.txt'
 
-#RUBY aliases
+#Bundler aliases
 alias b="bundle"
 alias bi='bundle install'
 alias be='bundle exec'
 alias bu='bundle update'
+
+#Rspec aliases
 alias rs='rspec --color'
 alias rspec='rspec --color'
 
