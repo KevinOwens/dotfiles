@@ -2,14 +2,14 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias a='ls -lrthG'
-alias ackrc='vim ~/dotfiles/ackrc'
-alias aliases='vim ~/dotfiles/bash/aliases'
-alias paliases='vim ~/dotfiles/bash/private_aliases'
-alias bashrc='vim ~/dotfiles/bash/bashrc'
+alias ackrc='vim ~/.dotfiles/ackrc'
+alias aliases='vim ~/.dotfiles/bash/aliases'
+alias paliases='vim ~/.dotfiles/bash/private_aliases'
+alias bashrc='vim ~/.dotfiles/bash/bashrc'
 alias c='cd ~/code'
 alias code="echo 'use c!' && cd ~/code"
 alias dev='cd ~/Dropbox/Development'
-alias dotfiles='cd ~/dotfiles' 
+alias dotfiles='cd ~/.dotfiles' 
 alias D='cd ~/Dropbox'
 alias finder='open'
 alias gg='git lg'
@@ -76,10 +76,6 @@ alias h='heroku'
 
 #VIM aliases
 alias vimrc='vim ~/.vimrc'
-
-#TMUX aliases
-alias muxkill='tmux kill-session'
-alias muxistart='tmuxinator start' 
 
 #POSTGRES
 alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
