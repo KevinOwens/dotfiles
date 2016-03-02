@@ -22,6 +22,7 @@ call plug#end()
 colorscheme jellybeans " Set the colorscheme
 
 let mapleader = " " 	"Set the leader to the spacebar
+set nocompatible
 set ruler           	"Always show cursor position
 set t_Co=256        	"Use 256 Colors in Terminal
 set history=500     	"Keep 500 lines of command history
@@ -29,6 +30,9 @@ set laststatus=2    	"Always display status line
 set number 	    	"Display line numbers on the left
 set backupdir=~/.tmp    "Put tmp and swp files in one place
 set directory=~/.tmp 	"Put tmp and swp files in one place
+set nowrap 		"Dont wrap text
+set showcmd
+set smarttab
 
 map <C-n> :NERDTreeToggle<CR> "Map NERDTree toggle to Ctrl+n
 
