@@ -23,7 +23,7 @@ function exitstatus {
   BLUE="\[\e[34;1m\]"
   OFF="\[\033[m\]"
 
-  PROMPT="[KO@: \W ${RED}\$(parse_git_branch)${OFF}"
+  PROMPT="[KO: \W ${RED}\$(parse_git_branch)${OFF}"
 
   if [ "${EXITSTATUS}" -eq 0 ]
   then
