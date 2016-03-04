@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-surround'
 
 " Search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -17,6 +18,7 @@ Plug 'airblade/vim-gitgutter'
 
 " Colors
 Plug 'nanotech/jellybeans.vim'
+Plug 'flazz/vim-colorschemes'
 
 " Clojure
 Plug 'guns/vim-clojure-static'
@@ -46,8 +48,11 @@ set backupdir=~/.tmp    "Put tmp and swp files in one place
 set directory=~/.tmp 	"Put tmp and swp files in one place
 set nowrap 		"Dont wrap text
 set autoindent     	"Always set autoindenting on
+set updatetime=250 	"updatetime to 250ms so gitgutter responds quicker (default is 4s)
 set showcmd
 set smarttab
+set splitbelow
+set splitright
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR> "Map NERDTree toggle to Ctrl+n

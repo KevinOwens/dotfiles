@@ -76,8 +76,8 @@ alias tools='cd ~/code/tools'
 alias h='heroku'
 
 #VIM aliases
-alias vimrc='vim ~/.vimrc'
-alias oldvimrc='vim ~/.vimrc_old'
+alias vimrc='vim ~/.dotfiles/vimrc'
+alias oldvimrc='vim ~/.dotfiles/vimrc_old'
 
 #POSTGRES
 alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
