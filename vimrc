@@ -7,6 +7,7 @@ Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
+Plug 'Valloric/YouCompleteMe'
 
 " Search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -53,6 +54,14 @@ set showcmd
 set smarttab
 set splitbelow
 set splitright
+set shiftwidth=2
+set et
+set tabstop=2
+set visualbell
+set t_vb=
+
+" Previous File
+map <Leader>l :e#<CR>
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR> "Map NERDTree toggle to Ctrl+n
