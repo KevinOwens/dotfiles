@@ -7,7 +7,6 @@ Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
-Plug 'Valloric/YouCompleteMe'
 
 " Search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -18,7 +17,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 " Colors
-Plug 'nanotech/jellybeans.vim'
 Plug 'flazz/vim-colorschemes'
 
 " Clojure
@@ -32,7 +30,6 @@ Plug 'tpope/vim-rails'
 
 call plug#end()
 
-colorscheme jellybeans " Set the colorscheme
 
 let mapleader = " " 	"Set the leader to the spacebar
 
