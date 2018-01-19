@@ -1,10 +1,10 @@
 [include]
-  path = ~/dotfiles/gitconfig.local
+  path = ~/.dotfiles/gitconfig.local
 [alias]
   co = checkout
 [core]
   editor = "vim" 
-	excludesfile = /Users/KO/.gitignore_global
+	excludesfile = ~/.dotfiles/gitignore_global
 [color]
   diff = auto
   status = auto
