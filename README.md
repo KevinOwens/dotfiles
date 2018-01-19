@@ -6,9 +6,9 @@ Inpsired heavily by:
 - https://github.com/ryanb/dotfiles
 
 ## Install
-  `git clone git://github.com/KevinOwens/dotfiles ~/.dotfiles`
-  `cd ~/.dotfiles`  
-  `rake install`
+  `git clone git://github.com/KevinOwens/dotfiles ~/.dotfiles`  
+  `cd ~/.dotfiles`   
+  `rake install` 
 
 # Brew Installs
 
