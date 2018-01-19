@@ -86,3 +86,7 @@ alias pg-status="pg_ctl -D /usr/local/var/postgres status"
 
 #Cassandra
 alias cass="cd /usr/local/etc/cassandra"
+
+#Block Websites
+alias focus='sudo cp ~/.dotfiles/distraction-hosts.txt /etc/hosts'
+alias distract='sudo cp ~/.dotfiles/default-hosts.txt /etc/hosts'

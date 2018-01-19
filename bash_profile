@@ -11,7 +11,7 @@ if [ -f ~/.dotfiles/bash/private_aliases ]; then
 fi
 
 if [ -f ~/.dotfiles/bashrc ]; then
-  source ~/.dotfiles/bash/bashrc
+  source ~/.dotfiles/bashrc
 fi
 
 # Powerline Go
