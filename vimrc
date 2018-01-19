@@ -61,6 +61,7 @@ set t_vb=
 map <Leader>l :e#<CR>
 
 " NERDTree
+let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR> "Map NERDTree toggle to Ctrl+n
 
 " Fugitive (Git)
