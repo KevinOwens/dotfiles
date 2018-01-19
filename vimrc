@@ -30,8 +30,8 @@ Plug 'tpope/vim-rails'
 
 call plug#end()
 
-
 let mapleader = " " 	"Set the leader to the spacebar
+colorscheme molokai "jellybeans
 
 filetype plugin indent on "Required for 'vim-clojure-static'
 syntax on 		"Enable syntax highlighting

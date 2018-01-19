@@ -26,14 +26,14 @@ alias v='vim'
 alias vi='vim'
 
 #Note Files
-alias n='vim ~/Dropbox/KevinOwens/notes.txt'
-alias cnotes='vim ~/Dropbox/Development/notes/clojure_notes.txt'
-alias gnotes='vim ~/Dropbox/Development/notes/git_notes.txt'
-alias mnotes='vim ~/Dropbox/Development/notes/mongo_notes.txt'
-alias pnotes='vim ~/Dropbox/Development/notes/programming_notes.txt'
-alias snotes='vim ~/Dropbox/Development/notes/shell_notes.txt'
-alias rnotes='vim ~/Dropbox/Development/notes/ruby_notes.txt'
-alias vnotes='vim ~/Dropbox/Development/notes/vim_notes.txt'
+# alias n='vim ~/Dropbox/KevinOwens/notes.txt'
+# alias cnotes='vim ~/Dropbox/Development/notes/clojure_notes.txt'
+# alias gnotes='vim ~/Dropbox/Development/notes/git_notes.txt'
+# alias mnotes='vim ~/Dropbox/Development/notes/mongo_notes.txt'
+# alias pnotes='vim ~/Dropbox/Development/notes/programming_notes.txt'
+# alias snotes='vim ~/Dropbox/Development/notes/shell_notes.txt'
+# alias rnotes='vim ~/Dropbox/Development/notes/ruby_notes.txt'
+# alias vnotes='vim ~/Dropbox/Development/notes/vim_notes.txt'
 
 #Bundler aliases
 alias b="bundle"
