@@ -1,6 +1,7 @@
 export EDITOR="vim"
 export PATH=$PATH:$HOME/.dotfiles/bin
 export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/go/bin
 

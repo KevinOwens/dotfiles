@@ -3,3 +3,4 @@ vim/bundle
 vim/plugged
 gitconfig.local
 bash/private_aliases
+lein/self-installs/
