@@ -30,6 +30,7 @@ brew update
 PACKAGES=(
     ack
     git
+    go
     leiningen
     memcached
     mongodb
@@ -50,6 +51,16 @@ echo "Configuring OSX..."
 
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+#install go-powerline
+go get -u github.com/justjanne/powerline-go
+
+#install powerline fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
 
 echo "Bootstrapping complete"
 

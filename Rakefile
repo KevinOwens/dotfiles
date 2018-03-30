@@ -24,10 +24,15 @@ task :install do
 
   # Handle ssh pubkey on its own
   puts "Linking public ssh key"
-  system %Q{rm "$HOME/.ssh/id_rsa.pub"}
+  if File.directory?(File.expand_path('~/.ssh'))
+    system %Q{rm "$HOME/.ssh/id_rsa.pub"}
+  else
+    system %Q{mkdir "$HOME/.ssh/"}
+  end
   system %Q{ln -s "$PWD/id_rsa.pub" "$HOME/.ssh/id_rsa.pub"}
 
-  system %Q{mkdir ~/.tmp}
+  #Make a .tmp directory for vim stuff
+  system %Q{mkdir -p ~/.tmp}
 end
 
 def replace_file(file)
