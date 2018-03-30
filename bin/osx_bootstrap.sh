@@ -32,9 +32,12 @@ PACKAGES=(
     git
     go
     leiningen
+    libyaml
+    libffi
     memcached
     mongodb
     npm
+    openssl
     the_silver_searcher
     tmux
     vim
@@ -61,6 +64,12 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+#install asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.4.3
+
+asdf plugin-add ruby
+asdf plugin-add nodejs
 
 echo "Bootstrapping complete"
 
