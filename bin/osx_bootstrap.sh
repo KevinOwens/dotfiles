@@ -70,6 +70,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.4.3
 
 asdf plugin-add ruby
 asdf plugin-add nodejs
+asdf plugin-add python
 
 echo "Bootstrapping complete"
 
