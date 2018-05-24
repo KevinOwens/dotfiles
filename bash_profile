@@ -26,6 +26,3 @@ function _update_ps1() {
 if [ "$TERM" != "linux" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
-
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash

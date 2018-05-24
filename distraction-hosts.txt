@@ -16,3 +16,15 @@
 
 127.0.0.1 www.reddit.com
 127.0.0.1 reddit.com
+
+127.0.0.1 www.cnn.com
+127.0.0.1 cnn.com
+
+127.0.0.1 www.msnbc.com
+127.0.0.1 msnbc.com
+
+127.0.0.1 www.espnfc.com
+127.0.0.1 espnfc.com
+
+127.0.0.1 www.espn.com
+127.0.0.1 espn.com
