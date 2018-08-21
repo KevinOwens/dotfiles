@@ -42,3 +42,5 @@
 	trustExitCode = true
 [github]
   user = KevinOwens
+[credential]
+	helper = osxkeychain
