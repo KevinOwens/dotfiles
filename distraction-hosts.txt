@@ -28,3 +28,6 @@
 
 127.0.0.1 www.espn.com
 127.0.0.1 espn.com
+
+127.0.0.1 www.bringatrailer.com
+127.0.0.1 bringatrailer.com
