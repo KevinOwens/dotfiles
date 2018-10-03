@@ -7,6 +7,7 @@ Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
+Plug 'shime/vim-livedown'
 
 " Search
 Plug 'ctrlpvim/ctrlp.vim'
@@ -27,6 +28,7 @@ Plug 'tpope/vim-fireplace'
 " Ruby/Rails 
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
+
 
 call plug#end()
 
@@ -74,6 +76,11 @@ map <Leader>p :CtrlP<CR>
 " Use Silver Searcher instead of grep
 set grepprg=ag
 
+" VIM Livedown (Markdown Preview, https://github.com/shime/vim-livedown)
+let g:livedown_autorun = 1 " should markdown preview get shown automatically upon opening markdown buffer
+"let g:livedown_open = 1 " should the browser window pop-up upon previewing
+"let g:livedown_browser = "chrome"  "the browser to use
+map <Leader>md :LivedownToggle<CR>
 
 "Exit Vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
