@@ -2,6 +2,7 @@
 --type-set=coffee=.coffee
 --type-add=html=.haml
 --type-set=haml=.haml
+--type-set=slim=.slim
 --type-set
 ignorables=.log,.tmp,.pdf
 --ignore-dir=vendor
