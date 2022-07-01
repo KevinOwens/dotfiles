@@ -29,6 +29,7 @@ brew update
 
 PACKAGES=(
     ack
+    asdf
     git
     libyaml
     libffi
@@ -62,8 +63,7 @@ cd fonts
 cd ..
 rm -rf fonts
 
-#install asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.5.1
+#install asdf plugins
 
 asdf plugin-add ruby
 asdf plugin-add nodejs
