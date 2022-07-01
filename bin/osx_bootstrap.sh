@@ -30,12 +30,9 @@ brew update
 PACKAGES=(
     ack
     git
-    go
-    leiningen
     libyaml
     libffi
     memcached
-    mongodb
     npm
     openssl
     the_silver_searcher
