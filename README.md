@@ -14,7 +14,3 @@ Inpsired heavily by:
 
 ack 
 leiningen
-
-# Installs
-RVM
-
