@@ -22,11 +22,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'flazz/vim-colorschemes'
 Plug 'slim-template/vim-slim'
 
-" Clojure
-Plug 'guns/vim-clojure-static'
-Plug 'tpope/vim-classpath'
-Plug 'tpope/vim-fireplace'
-
 " Ruby/Rails
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
@@ -35,12 +30,8 @@ Plug 'tpope/vim-rails'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 
-"Elixir
-Plug 'elixir-editors/vim-elixir'
-Plug 'slashmili/alchemist.vim'
-Plug 'slime-lang/vim-slime-syntax'
-Plug 'w0rp/ale'
-
+"Github Copilot
+Plug 'github/copilot.vim'
 
 
 call plug#end()
@@ -86,19 +77,34 @@ map <Leader>gd :Gdiff<CR>
 " CtrlP
 map <Leader>p :CtrlP<CR>
 
-" Elixir
+" ALE Linting
 let g:ale_fixers = {}
 let g:ale_fixers['*'] = ['remove_trailing_lines', 'trim_whitespace']
-let g:ale_fixers['javascript'] = ['prettier']
-let g:ale_fixers['elixir'] = ['mix_format']
+" let g:ale_fixers['elixir'] = ['mix_format']
+let g:ale_fixers['javascript'] = ['remove_trailing_lines', 'trim_whitespace', 'standard', 'prettier_standard', 'importjs']
+let g:ale_fixers['ruby'] = ['remove_trailing_lines', 'trim_whitespace', 'standardrb']
+let g:ale_fixers['markdown'] = ['remove_trailing_lines', 'trim_whitespace']
+let g:ale_fixers['markdown'] = ['remove_trailing_lines', 'trim_whitespace']
+let g:ale_fixers_aliases = {'ghmarkdown': ['markdown']}
 let g:ale_linters = {}
-let g:ale_linters['elixir'] = ['credo'] " mix stops phoenix code reloading
+" let g:ale_linters['elixir'] = ['elixir-ls'] " mix stops phoenix code reloading
+let g:ale_linters['ruby'] = ['standardrb']
+let g:ale_linters['javascript'] = ['standard']
+let g:ale_linters['markdown'] = ['writegood']
+let g:ale_linters['go'] = ['gopls']
+let g:ale_linters['css'] = ['stylelint']
+let g:ale_linters['slim'] = ['slimlint']
+let g:ale_linter_aliases = {'ghmarkdown': ['markdown']}
+" let g:ale_elixir_elixir_ls_release = '/Users/dustycandland/.vim/elixir-ls/bin'
 let g:ale_fix_on_save = 1
 let g:airline#extensions#ale#enabled = 1
-let g:ale_lint_on_text_changed = 'never' " or 'normal' or 'never'
+let g:ale_lint_on_text_changed = 'never' " 'always' or 'insert' or 'normal' or 'never'
 let g:ale_lint_delay = 1000
-
-let g:ale_elixir_elixir_ls_release = '/Users/kevinowens/.dotfiles/vim/plugin/elixir-ls/rel'
+" let g:ale_sign_error = '⤫'
+" let g:ale_sign_warning = '⚠'
+let g:ale_completion_enabled = 0
+let g:ale_lint_on_enter = 1
+let g:ale_lint_on_insert_leave = 1
 
 " Use Silver Searcher instead of grep
 set grepprg=ag

@@ -31,9 +31,10 @@
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -44,3 +45,7 @@
   user = KevinOwens
 [credential]
 	helper = osxkeychain
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
